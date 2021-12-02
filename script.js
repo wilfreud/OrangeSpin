@@ -11,7 +11,7 @@ function orangeCreator(orangeId){
     imgCreate.classList.add("orange");
     orangebox.appendChild(imgCreate);
 
-    if (orangeId === Math.round(orangeCount/2)) {imgCreate.classList.add("triggeredOrange");}
+    if (orangeId === Math.round(orangeCount/2)) {imgCreate.classList.add("triggeredOrange"); imgCreate.title = "Click to spin *";}
     animeIt(imgCreate);
 
 }
