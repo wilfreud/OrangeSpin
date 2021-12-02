@@ -5,6 +5,7 @@
 }
 body{
     overflow: hidden;
+    background-color: rgb(255, 227, 175);
 }
 .orange{
     width: 50px;
@@ -15,7 +16,6 @@ body{
 #orangebox{
     width: 100%;
     height: 100Vh;
-    background-color: rgb(255, 227, 175);
     position: absolute;
     top: 0;
     display: grid;
