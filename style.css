@@ -21,6 +21,7 @@ body{
     display: grid;
 }
 .orange.animate{
+    cursor: wait;
     animation: orangeSpin 10s cubic-bezier(0, 0.49, 0.65, 1.04) 0s 1 forwards;
 }
 @keyframes orangeSpin {
